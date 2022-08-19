@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regulament promoție</title>
+    <style>
+        @font-face {
+            font-family: Montserrat;
+            src: url('fonts/Montserrat-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: Montserrat;
+            font-weight: bold;
+            src: url('fonts/Montserrat-Bold.ttf');
+        }
+
+        * {
+            font-family: Montserrat, sans-serif;
+        }
+
+        ol {
+            counter-reset: item;
+            padding-left: 30px;
+        }
+
+        ol ol {
+            padding-left: 10px;
+        }
+
+        ol > li {
+            counter-increment: item;
+        }
+
+        ol ol > li {
+            display: block;
+        }
+
+        ol ol > li:before {
+            content: counters(item, ".") ". ";
+            margin-left: -20px;
+        }
+    </style>
+</head>
+<body>
+<h4>REGULAMENT PROMOȚIE</h4>
+
+<p>Societatea SNR INFO SOFT S.R.L., persoanǎ juridicǎ românǎ, de drept privat, cu sediul în România, București Sectorul
+    3, Șoseaua Mihai Bravu, Numărul 475, lot 2, lot 2, Etaj 9, Apartament 98, website www.goshelter.me înmatriculatǎ la
+    O.R.C. București sub nr. J40/2683/14.02.2022, având CUI: 45638492, denumitǎ în continuare Compania.</p>
+
+TODO
+</body>
+</html>
